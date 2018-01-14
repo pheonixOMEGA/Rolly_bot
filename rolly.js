@@ -13,7 +13,7 @@ bot.on('ready', () => {
   console.log('bot ready!');
 });
 
-bot.login('NDAxODAzOTQ2MDMwNzkyNzA1.DTvgyA.8YzlJ93qAPKeb_-kLZzGWXX4q_I');
+bot.login(process.env.TOKEN);
 
 bot.on('message', message => {
   if (message.content === "!--6") {
